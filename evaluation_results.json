@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-01-05T14:52:33.008755",
+  "test_samples": 707,
+  "prediction": {
+    "rmse": 49.555836879318754,
+    "mae": 41.20253223014298,
+    "phm08_score": 980688.3294214485,
+    "hazard_rul_correlation": -0.1312903226764136,
+    "correlation_pvalue": 0.0004653913818355518,
+    "within_15_cycles_pct": 20.226308345120223
+  },
+  "decision": {
+    "drl_avg_cost": 2.6874115983026874,
+    "no_maintenance_avg_cost": 0.0,
+    "always_minor_avg_cost": 2967.3833097595475,
+    "threshold_avg_cost": 54.257425742574256,
+    "oracle_avg_cost": 8.995756718528996,
+    "cost_improvement_vs_no_maint": -Infinity,
+    "cost_gap_vs_oracle": -70.12578616352201
+  },
+  "overall": {
+    "prediction_score": 5.0,
+    "cost_efficiency_score": 30.0,
+    "rationality_score": 20.0,
+    "timeliness_score": 10.0,
+    "total_score": 65.0,
+    "grade": "✅ B (良好)"
+  },
+  "by_dataset": {
+    "FD001": {
+      "rmse": 49.04823389759757,
+      "mae": 42.85084519597601,
+      "phm": 69545.16856648617,
+      "n": 100
+    },
+    "FD002": {
+      "rmse": 48.53224821466447,
+      "mae": 40.90098062830737,
+      "phm": 248125.54056607722,
+      "n": 259
+    },
+    "FD003": {
+      "rmse": 44.215693934701186,
+      "mae": 35.47399486357744,
+      "phm": 51206.90889253803,
+      "n": 100
+    },
+    "FD004": {
+      "rmse": 52.75163465763262,
+      "mae": 43.16271087912956,
+      "phm": 611810.7113963473,
+      "n": 248
+    }
+  }
+}
