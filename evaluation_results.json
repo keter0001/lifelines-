@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-05T14:52:33.008755",
+  "timestamp": "2026-01-06T10:02:11.648410",
   "test_samples": 707,
   "prediction": {
     "rmse": 49.555836879318754,
@@ -10,13 +10,13 @@
     "within_15_cycles_pct": 20.226308345120223
   },
   "decision": {
-    "drl_avg_cost": 2.6874115983026874,
-    "no_maintenance_avg_cost": 0.0,
-    "always_minor_avg_cost": 2967.3833097595475,
-    "threshold_avg_cost": 54.257425742574256,
-    "oracle_avg_cost": 8.995756718528996,
-    "cost_improvement_vs_no_maint": -Infinity,
-    "cost_gap_vs_oracle": -70.12578616352201
+    "drl_avg_cost": 25.24045261669024,
+    "no_maintenance_avg_cost": 22.553041018387553,
+    "always_minor_avg_cost": 2989.9292786421497,
+    "threshold_avg_cost": 69.75954738330977,
+    "oracle_avg_cost": 29.413012729844414,
+    "cost_improvement_vs_no_maint": -11.915961116337414,
+    "cost_gap_vs_oracle": -14.186102428468384
   },
   "overall": {
     "prediction_score": 5.0,
